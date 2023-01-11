@@ -1,7 +1,7 @@
 export default {
   title: "南笙", //标题
   titleTemplate: "南笙", //标题模板
-  description: "XXG-BLOG", //描述
+  description: "BLOG", //描述
   lastUpdated: true, //开启上次更新时间
   markdown: {
     theme: "nord",

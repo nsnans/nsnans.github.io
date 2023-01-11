@@ -1,0 +1,1 @@
+import{_ as l,o as t,c as a,a as e}from"./app.5da19ece.js";const A=JSON.parse('{"title":"\u{1F4E6} SQL","description":"","frontmatter":{},"headers":[],"relativePath":"Database/SQL/SQL.md","lastUpdated":1673426730000}'),i={name:"Database/SQL/SQL.md"},s=e("",7),r=[s];function o(c,_,n,E,d,T){return t(),a("div",null,r)}const S=l(i,[["render",o]]);export{A as __pageData,S as default};

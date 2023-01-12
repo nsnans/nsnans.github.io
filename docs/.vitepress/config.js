@@ -794,7 +794,7 @@ export default {
     ],
     //页脚
     footer: {
-      copyright: "Copyright © 2019-present 谢夏戈",
+      copyright:'<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>',
     },
     //碳广告
     // carbonAds: {

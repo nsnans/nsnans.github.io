@@ -3,7 +3,7 @@ export default nav = [
      {
       text: "Vue+Tsx",
       items: [
-        { text: "Echart", link: "../Pages/VueTsx/Echart/index" },
+        { text: "Echart", link: "../MyPages/VueTsx/Echart/index" },
       ],
     },
     // {
@@ -39,16 +39,16 @@ export default nav = [
     {
         text: "💻 前端",
         items: [
-            { text: "网站制作入门", link: "../Pages/FrontEnd/FrontEnd/tutorial" },
-            { text: "HTML", link: "../Pages/FrontEnd/HTML/HTML" },
-            { text: "CSS", link: "../Pages/FrontEnd/CSS/CSS" },
-            { text: "JavaScript", link: "../Pages/FrontEnd/JavaScript/JavaScript" },
-            { text: "TypeScript", link: "../Pages/FrontEnd/TypeScript/TypeScript" },
-            { text: "Vue", link: "../Pages/FrontEnd/Vue/Vue" },
-            { text: "Nuxt", link: "../Pages/FrontEnd/Nuxt/Nuxt3" },
-            { text: "Vue全家桶", link: "../Pages/FrontEnd/Vite/Vite" },
-            { text: "PWA", link: "../Pages/FrontEnd/PWA/PWA" },
-            { text: "浏览器扩展", link: "../Pages/FrontEnd/Extension/Extension" },
+            { text: "网站制作入门", link: "../MyPages/FrontEnd/FrontEnd/tutorial" },
+            { text: "HTML", link: "../MyPages/FrontEnd/HTML/HTML" },
+            { text: "CSS", link: "../MyPages/FrontEnd/CSS/CSS" },
+            { text: "JavaScript", link: "../MyPages/FrontEnd/JavaScript/JavaScript" },
+            { text: "TypeScript", link: "../MyPages/FrontEnd/TypeScript/TypeScript" },
+            { text: "Vue", link: "../MyPages/FrontEnd/Vue/Vue" },
+            { text: "Nuxt", link: "../MyPages/FrontEnd/Nuxt/Nuxt3" },
+            { text: "Vue全家桶", link: "../MyPages/FrontEnd/Vite/Vite" },
+            { text: "PWA", link: "../MyPages/FrontEnd/PWA/PWA" },
+            { text: "浏览器扩展", link: "../MyPages/FrontEnd/Extension/Extension" },
         ],
     },
     // {

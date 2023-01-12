@@ -1,9 +1,9 @@
 {
   "name": "vitepress",
   "version": "1.0.0",
-  "description": "xxg-blog",
+  "description": "blog",
   "main": "index.js",
-  "author": "xxg",
+  "author": "ns",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.22",

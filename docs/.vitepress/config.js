@@ -1,66 +1,67 @@
 export default {
   title: "南笙", //标题
   titleTemplate: "南笙", //标题模板
-  description: "BLOG", //描述
+  description: "Blog", //描述
   lastUpdated: true, //开启上次更新时间
   markdown: {
     theme: "nord",
   },
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["meta", { property: "og:title", content: "谢夏戈博客" }],
-    ["meta", { property: "og:site_name", content: "谢夏戈博客" }],
+    // ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
+    ["meta", { property: "og:title", content: "Blog" }],
+    ["meta", { property: "og:site_name", content: "Blog" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:description", content: "前端教程" }],
-    ["meta", { property: "og:url", content: "https://xxggg.github.io/" }],
-    [
-      "script",
-      {
-        "data-ad-client": "ca-pub-7650804804345609",
-        async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-      },
-    ],
-    // 添加百度统计
-    [
-      "script",
-      {},
-      `
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?bc1fc3ec2768667d3746b56f7d411ddd";
-                var s = document.getElementsByTagName("script")[0]; 
-                s.parentNode.insertBefore(hm, s);
-            })();
-            `,
-    ],
-    // 添加谷歌统计
-    [
-      "script",
-      {
-        src: "https://www.googletagmanager.com/gtag/js?id=G-ZLSGRZRXCN",
-        async: true,
-      },
-    ],
-    [
-      "script",
-      {},
-      `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+    ["meta", { property: "og:url", content: "https://hellons.site/" }],
+    // [
+    //   "script",
+    //   {
+    //     "data-ad-client": "ca-pub-7650804804345609",
+    //     async: true,
+    //     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+    //   },
+    // ],
+    // // 添加百度统计
+    // [
+    //   "script",
+    //   {},
+    //   `
+    //         var _hmt = _hmt || [];
+    //         (function() {
+    //             var hm = document.createElement("script");
+    //             hm.src = "https://hm.baidu.com/hm.js?bc1fc3ec2768667d3746b56f7d411ddd";
+    //             var s = document.getElementsByTagName("script")[0]; 
+    //             s.parentNode.insertBefore(hm, s);
+    //         })();
+    //         `,
+    // ],
+    // // 添加谷歌统计
+    // [
+    //   "script",
+    //   {
+    //     src: "https://www.googletagmanager.com/gtag/js?id=G-ZLSGRZRXCN",
+    //     async: true,
+    //   },
+    // ],
+    // [
+    //   "script",
+    //   {},
+    //   `
+    //             window.dataLayer = window.dataLayer || [];
+    //             function gtag(){dataLayer.push(arguments);}
+    //             gtag('js', new Date());
 
-                gtag('config', 'G-ZLSGRZRXCN');
-            `,
-    ],
+    //             gtag('config', 'G-ZLSGRZRXCN');
+    //         `,
+    // ],
   ],
   // Theme related configurations.[自定义主题]
   themeConfig: {
     logo: "/logo.svg",
-    siteTitle: "『 谢夏戈的博客 』",
+    siteTitle: "Blog",
     outlineTitle: '🔴🟠🟡🟢🔵🟣🟤⚫⚪',
-    outline:[2,6],
+    outline: [2, 6],
     //导航栏
     nav: [
       // {
@@ -70,29 +71,29 @@ export default {
       //         { text: '🏹 探索2022', link: '../Explore/2022/' },
       //     ]
       // },
-      {
-        text: "📖 笔记",
-        items: [
-          { text: "🐈‍⬛ Git", link: "../Note/Git" },
-          { text: "🧶 Yarn", link: "../Note/Yarn" },
-          { text: "🎒 npm", link: "../Note/npm" },
-          { text: "♾️ VScode", link: "../Note/VSCode_plug" },
-          { text: "⭕ Apifox", link: "../Note/ApiFox" },
-          { text: "📚 小笔记", link: "../Note/SVG" },
-          {
-            items: [
-              // { text: '🗂️ 小Project', link: '../Explore/Project/' },
-              { text: "🏹 探索2022", link: "../Explore/2022/" },
-            ],
-          },
-          {
-            items: [{ text: "🐞 BUG笔记", link: "../BUG/index" }],
-          },
-          {
-            items: [{ text: "🌽 项目笔记", link: "../Project/index" }],
-          },
-        ],
-      },
+      // {
+      //   text: "📖 笔记",
+      //   items: [
+      //     { text: "🐈‍⬛ Git", link: "../Note/Git" },
+      //     { text: "🧶 Yarn", link: "../Note/Yarn" },
+      //     { text: "🎒 npm", link: "../Note/npm" },
+      //     { text: "♾️ VScode", link: "../Note/VSCode_plug" },
+      //     { text: "⭕ Apifox", link: "../Note/ApiFox" },
+      //     { text: "📚 小笔记", link: "../Note/SVG" },
+      //     {
+      //       items: [
+      //         // { text: '🗂️ 小Project', link: '../Explore/Project/' },
+      //         { text: "🏹 探索2022", link: "../Explore/2022/" },
+      //       ],
+      //     },
+      //     {
+      //       items: [{ text: "🐞 BUG笔记", link: "../BUG/index" }],
+      //     },
+      //     {
+      //       items: [{ text: "🌽 项目笔记", link: "../Project/index" }],
+      //     },
+      //   ],
+      // },
       {
         text: "💻 前端",
         items: [
@@ -108,42 +109,42 @@ export default {
           { text: "🧩 浏览器扩展", link: "../FrontEnd/Extension/Extension" },
         ],
       },
-      {
-        text: "🖥️ 后端",
-        items: [
-          { text: "⬜ Node", link: "../BackEnd/Node/Node" },
-          { text: "⬛ Express", link: "../BackEnd/Express/Express" },
-        ],
-      },
-      {
-        text: "📦 数据库",
-        items: [
-          { text: "📦 SQL", link: "../Database/SQL/SQL" },
-          { text: "🐬 MySQL", link: "../Database/MySQL/MySQL" },
-          { text: "🍃 SQLite", link: "../Database/SQLite/SQLite" },
-          { text: "🗄️ indexedDB", link: "../Database/indexedDB/indexedDB" },
-        ],
-      },
-      {
-        text: "🧊 部署",
-        items: [{ text: "🌩️ VitePress", link: "../Deploy/VitePress_favicon" }],
-      },
-      {
-        text: "🕸️ 爬虫",
-        items: [
-          { text: "🐍 Python", link: "../WebSpider/Python/Python_intro" },
-          { text: "🕸️ 爬虫", link: "../WebSpider/Spider/index" },
-        ],
-      },
-      {
-        text: "⭐ 关于",
-        items: [
-          { text: "⭐ 关于我", link: "../About/AboutMe" },
-          { text: "🐤 小黄鸭", link: "../About/AboutDuck" },
-          { text: "🧑‍💻 程序员故事", link: "../About/Tale/RubberDuckDebugging" },
-          { text: "🍥 【旧】的博客", link: "https://xxggg.gitee.io/" },
-        ],
-      },
+      // {
+      //   text: "🖥️ 后端",
+      //   items: [
+      //     { text: "⬜ Node", link: "../BackEnd/Node/Node" },
+      //     { text: "⬛ Express", link: "../BackEnd/Express/Express" },
+      //   ],
+      // },
+      // {
+      //   text: "📦 数据库",
+      //   items: [
+      //     { text: "📦 SQL", link: "../Database/SQL/SQL" },
+      //     { text: "🐬 MySQL", link: "../Database/MySQL/MySQL" },
+      //     { text: "🍃 SQLite", link: "../Database/SQLite/SQLite" },
+      //     { text: "🗄️ indexedDB", link: "../Database/indexedDB/indexedDB" },
+      //   ],
+      // },
+      // {
+      //   text: "🧊 部署",
+      //   items: [{ text: "🌩️ VitePress", link: "../Deploy/VitePress_favicon" }],
+      // },
+      // {
+      //   text: "🕸️ 爬虫",
+      //   items: [
+      //     { text: "🐍 Python", link: "../WebSpider/Python/Python_intro" },
+      //     { text: "🕸️ 爬虫", link: "../WebSpider/Spider/index" },
+      //   ],
+      // },
+      // {
+      //   text: "⭐ 关于",
+      //   items: [
+      //     { text: "⭐ 关于我", link: "../About/AboutMe" },
+      //     { text: "🐤 小黄鸭", link: "../About/AboutDuck" },
+      //     { text: "🧑‍💻 程序员故事", link: "../About/Tale/RubberDuckDebugging" },
+      //     { text: "🍥 【旧】的博客", link: "https://xxggg.gitee.io/" },
+      //   ],
+      // },
     ],
     //侧边栏
     sidebar: {
@@ -784,17 +785,17 @@ export default {
     },
     //社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/XXGGG" },
-      { icon: "twitter", link: "https://twitter.com/TWI_XXGGG" },
-      { icon: "instagram", link: "https://www.instagram.com/xiexiage/" },
-      {
-        icon: "youtube",
-        link: "https://www.youtube.com/channel/UCjzdLs5HAhATbfZH6vaJCEA",
-      },
+      { icon: "github", link: "https://github.com/" },
+      // { icon: "twitter", link: "https://twitter.com/TWI_XXGGG" },
+      // { icon: "instagram", link: "https://www.instagram.com/xiexiage/" },
+      // {
+      //   icon: "youtube",
+      //   link: "https://www.youtube.com/channel/UCjzdLs5HAhATbfZH6vaJCEA",
+      // },
     ],
     //页脚
     footer: {
-      copyright:'<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>',
+      copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>',
     },
     //碳广告
     // carbonAds: {

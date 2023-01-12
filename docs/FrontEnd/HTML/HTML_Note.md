@@ -25,7 +25,7 @@
 
 ## 网站图标
 ```html
-<link  href="favicon.ico"/>//网站图标
+<link rel="icon" type="image/svg+xml" href="/logo.svg" />//网站图标
 ```
 
 

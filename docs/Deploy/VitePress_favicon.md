@@ -13,7 +13,7 @@
 一般网页的标签页图标都是放在默认`index.html`文件里的👇
 ```html
 <head>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
 </head>
 ```
 

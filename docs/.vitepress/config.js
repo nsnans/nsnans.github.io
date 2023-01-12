@@ -59,11 +59,17 @@ export default {
   // Theme related configurations.[自定义主题]
   themeConfig: {
     logo: "/logo.svg",
-    siteTitle: "Blog",
+    siteTitle: "切图仔的悲惨日记",
     outlineTitle: '🔴🟠🟡🟢🔵🟣🟤⚫⚪',
     outline: [2, 6],
     //导航栏
     nav: [
+      //  {
+      //   text: "Vue+Tsx",
+      //   items: [
+      //     { text: "Echart", link: "../VueTsx/Echart/index" },
+      //   ],
+      // },
       // {
       //     text: '🏹探索',
       //     items: [
@@ -785,7 +791,7 @@ export default {
     },
     //社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/" },
+      { icon: "github", link: "https://github.com/nsnans" },
       // { icon: "twitter", link: "https://twitter.com/TWI_XXGGG" },
       // { icon: "instagram", link: "https://www.instagram.com/xiexiage/" },
       // {
@@ -795,7 +801,8 @@ export default {
     ],
     //页脚
     footer: {
-      copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>',
+      copyright: `Copyright &copy; 2022-present <a href="https://github.com/nsnans" style="color:skyblue">@南笙</a>
+       <br/><a style="color:red" href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>`,
     },
     //碳广告
     // carbonAds: {

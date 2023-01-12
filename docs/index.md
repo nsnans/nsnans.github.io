@@ -2,10 +2,13 @@
 
 layout: home
 
-
 hero:
-  name:  Home
-  # text:  
+  text: 记录下
+
+
+# hero:
+  # name:  Home
+  # text:  12
   # tagline: 欢迎来到我的博客 - 小黄鸭，我是谢夏戈。                  本博客分门别类了 我的笔记，学习路径，教程推荐。
   # actions:
   #   - theme: brand

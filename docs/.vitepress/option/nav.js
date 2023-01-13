@@ -47,8 +47,12 @@ export default nav = [
             { text: "Vue", link: "../FrontEnd/Vue/Vue" },
             { text: "Nuxt", link: "../FrontEnd/Nuxt/Nuxt3" },
             { text: "Vue全家桶", link: "../FrontEnd/Vite/Vite" },
-            { text: "PWA", link: "../FrontEnd/PWA/PWA" },
-            { text: "浏览器扩展", link: "../FrontEnd/Extension/Extension" },
+            {
+              text: "Menu", items: [
+                { text: "PWA", link: "../FrontEnd/PWA/PWA" },
+                { text: "浏览器扩展", link: "../FrontEnd/Extension/Extension" },
+              ]
+            }
         ],
     },
     // {

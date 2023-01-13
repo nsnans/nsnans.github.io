@@ -7,6 +7,7 @@ export default {
   titleTemplate: "南笙", //标题模板
   description: "Blog", //描述
   lastUpdated: true, //开启上次更新时间
+  cleanUrls: 'without-subfolders',
   markdown: {
     theme: "nord",
   },
@@ -23,7 +24,7 @@ export default {
     sidebar,
     //社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/nsnans" },
+      { icon: "github", link: "https://github.com" },
       // { icon: "twitter", link: "https://twitter.com/TWI_XXGGG" },
       // { icon: "instagram", link: "https://www.instagram.com/xiexiage/" },
       // {
@@ -33,10 +34,10 @@ export default {
     ],
     //页脚
     footer: {
-      copyright: `Copyright &copy; 2022-present <a href="https://github.com/nsnans" style="color:skyblue">@南笙</a>
+      copyright: `Copyright &copy; 2022-present @南笙
        <br/><a style="color:red" href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022004049号-1</a>`,
     },
-    //碳广告
+    // 碳广告
     // carbonAds: {
     //   code: "your-carbon-code",
     //   placement: "your-carbon-placement",

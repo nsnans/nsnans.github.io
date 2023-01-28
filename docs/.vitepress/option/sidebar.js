@@ -1,6 +1,16 @@
 function FrontEnd(params) {
     let url = ''
     return {
+        "/VueTsx/Echart": [
+            {
+                text: "Echarts",
+                collapsible: true,
+                items: [
+                    { text: "动态配置x和y轴", link: "/VueTsx/Echart/DynamicConfiguration" },
+                   
+                ],
+            },
+        ],
         "/FrontEnd/FrontEnd": [
             {
                 text: "🍳〖零基础〗",

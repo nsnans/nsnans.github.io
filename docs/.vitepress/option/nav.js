@@ -1,9 +1,15 @@
 //导航栏
 export default nav = [
-     {
+   {
+      text: "JS",
+      items: [
+        { text: "Js的复习", link: "../Js/index" },
+      ],
+    },
+    {
       text: "Vue+Tsx",
       items: [
-        { text: "Echart", link: "../VueTsx/Echart/index" },
+        { text: "Echart", link: "../VueTsx/Echart/DynamicConfiguration" },
       ],
     },
     // {

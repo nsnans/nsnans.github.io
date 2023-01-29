@@ -7,6 +7,12 @@ export default nav = [
       ],
     },
     {
+      text: "GIT",
+      items: [
+        { text: "常用", link: "../Git/Usual" },
+      ],
+    },
+    {
       text: "Vue+Tsx",
       items: [
         { text: "Echart", link: "../VueTsx/Echart/DynamicConfiguration" },

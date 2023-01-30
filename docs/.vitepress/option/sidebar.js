@@ -7,7 +7,17 @@ function FrontEnd(params) {
                 collapsible: true,
                 items: [
                     { text: "动态配置x和y轴", link: "/VueTsx/Echart/DynamicConfiguration" },
-                   
+
+                ],
+            },
+        ],
+        "RandomNotes/test": [
+            {
+                text: "随便记录",
+                collapsible: true,
+                items: [
+                    { text: "1,react的type", link: "RandomNotes/test/1" },
+                    // { text: "2,", link: "RandomNotes/test/2" },
                 ],
             },
         ],

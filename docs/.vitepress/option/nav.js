@@ -13,6 +13,12 @@ export default nav = [
       ],
     },
     {
+      text: "RandomNote",
+      items: [
+        { text: "随手记录", link: "../RandomNotes/test/1" },
+      ],
+    },
+    {
       text: "Vue+Tsx",
       items: [
         { text: "Echart", link: "../VueTsx/Echart/DynamicConfiguration" },
@@ -48,25 +54,25 @@ export default nav = [
     //     },
     //   ],
     // },
-    {
-        text: "前端",
-        items: [
-            { text: "网站制作入门", link: "../FrontEnd/FrontEnd/tutorial" },
-            { text: "HTML", link: "../FrontEnd/HTML/HTML" },
-            { text: "CSS", link: "../FrontEnd/CSS/CSS" },
-            { text: "JavaScript", link: "../FrontEnd/JavaScript/JavaScript" },
-            { text: "TypeScript", link: "../FrontEnd/TypeScript/TypeScript" },
-            { text: "Vue", link: "../FrontEnd/Vue/Vue" },
-            { text: "Nuxt", link: "../FrontEnd/Nuxt/Nuxt3" },
-            { text: "Vue全家桶", link: "../FrontEnd/Vite/Vite" },
-            {
-              text: "Menu", items: [
-                { text: "PWA", link: "../FrontEnd/PWA/PWA" },
-                { text: "浏览器扩展", link: "../FrontEnd/Extension/Extension" },
-              ]
-            }
-        ],
-    },
+    // {
+    //     text: "前端",
+    //     items: [
+    //         { text: "网站制作入门", link: "../FrontEnd/FrontEnd/tutorial" },
+    //         { text: "HTML", link: "../FrontEnd/HTML/HTML" },
+    //         { text: "CSS", link: "../FrontEnd/CSS/CSS" },
+    //         { text: "JavaScript", link: "../FrontEnd/JavaScript/JavaScript" },
+    //         { text: "TypeScript", link: "../FrontEnd/TypeScript/TypeScript" },
+    //         { text: "Vue", link: "../FrontEnd/Vue/Vue" },
+    //         { text: "Nuxt", link: "../FrontEnd/Nuxt/Nuxt3" },
+    //         { text: "Vue全家桶", link: "../FrontEnd/Vite/Vite" },
+    //         {
+    //           text: "Menu", items: [
+    //             { text: "PWA", link: "../FrontEnd/PWA/PWA" },
+    //             { text: "浏览器扩展", link: "../FrontEnd/Extension/Extension" },
+    //           ]
+    //         }
+    //     ],
+    // },
     // {
     //   text: "🖥️ 后端",
     //   items: [

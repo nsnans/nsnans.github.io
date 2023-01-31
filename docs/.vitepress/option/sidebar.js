@@ -17,7 +17,7 @@ function FrontEnd(params) {
                 collapsible: true,
                 items: [
                     { text: "1,react的type", link: "RandomNotes/test/1" },
-                    // { text: "2,", link: "RandomNotes/test/2" },
+                    { text: "2,antdv的menu", link: "RandomNotes/test/2" },
                 ],
             },
         ],

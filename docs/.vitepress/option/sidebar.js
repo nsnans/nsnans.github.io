@@ -18,6 +18,7 @@ function FrontEnd(params) {
                 items: [
                     { text: "1,react的type", link: "RandomNotes/test/1" },
                     { text: "2,antdv的menu", link: "RandomNotes/test/2" },
+                    { text: "3,数组", link: "RandomNotes/test/3" },
                 ],
             },
         ],

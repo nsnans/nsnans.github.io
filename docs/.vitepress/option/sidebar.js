@@ -11,15 +11,16 @@ function FrontEnd(params) {
                 ],
             },
         ],
-        "RandomNotes/test": [
+        "RandomNotes": [
             {
-                text: "随便记录",
+                text: "随手记录",
                 collapsible: true,
                 items: [
                     { text: "1,react的type", link: "RandomNotes/test/1" },
                     { text: "2,antdv的menu", link: "RandomNotes/test/2" },
                     { text: "3,数组", link: "RandomNotes/test/3" },
                     { text: "4,nvm", link: "RandomNotes/test/4" },
+                    { text: "5,aggrid", link: "RandomNotes/test/5" },
                 ],
             },
         ],

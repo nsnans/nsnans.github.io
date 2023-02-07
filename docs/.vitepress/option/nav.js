@@ -14,9 +14,10 @@ export default nav = [
     },
     {
       text: "RandomNote",
-      items: [
-        { text: "随手记录", link: "../RandomNotes/test/1" },
-      ],
+      link:"../RandomNotes/test/1" 
+      // items: [
+      //   { text: "随手记录", link: "../RandomNotes/test/1" },
+      // ],
     },
     {
       text: "Vue+Tsx",

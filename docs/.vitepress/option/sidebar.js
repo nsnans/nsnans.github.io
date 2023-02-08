@@ -21,6 +21,8 @@ function FrontEnd(params) {
                     { text: "3,数组", link: "RandomNotes/test/3" },
                     { text: "4,nvm", link: "RandomNotes/test/4" },
                     { text: "5,aggrid", link: "RandomNotes/test/5" },
+                    { text: "6,npm i报错", link: "RandomNotes/test/6" },
+
                 ],
             },
         ],

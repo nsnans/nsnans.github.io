@@ -23,6 +23,7 @@ function FrontEnd(params) {
                     { text: "5,aggrid", link: "RandomNotes/test/5" },
                     { text: "6,npm i报错", link: "RandomNotes/test/6" },
                     { text: "7,vsc插件", link: "RandomNotes/test/7" },
+                    { text: "8,git", link: "RandomNotes/test/8" },
                 ],
             },
         ],

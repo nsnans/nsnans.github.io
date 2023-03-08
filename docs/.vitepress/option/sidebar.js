@@ -24,6 +24,7 @@ function FrontEnd(params) {
                     { text: "6,npm i报错", link: "RandomNotes/test/6" },
                     { text: "7,vsc插件", link: "RandomNotes/test/7" },
                     { text: "8,git", link: "RandomNotes/test/8" },
+                    { text: "9,....", link: "RandomNotes/test/9" },
                 ],
             },
         ],

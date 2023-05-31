@@ -25,6 +25,7 @@ function FrontEnd(params) {
                     { text: "7,vsc插件", link: "RandomNotes/test/7" },
                     { text: "8,git", link: "RandomNotes/test/8" },
                     { text: "9,....", link: "RandomNotes/test/9" },
+                    { text: "10,引用组件直接渲染", link: "RandomNotes/test/10" },
                 ],
             },
         ],

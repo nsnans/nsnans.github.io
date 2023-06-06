@@ -26,6 +26,8 @@ function FrontEnd(params) {
                     { text: "8,git", link: "RandomNotes/test/8" },
                     { text: "9,....", link: "RandomNotes/test/9" },
                     { text: "10,引用组件直接渲染", link: "RandomNotes/test/10" },
+                    { text: "11,判断类型", link: "RandomNotes/test/11" },
+
                 ],
             },
         ],

@@ -57,3 +57,30 @@ const intersection = (a, ...arr: any) => {
 
 console.log(intersection([1, 2, 3, 4], [2, 3, 4, 7, 8], [1, 3, 4, 9]));
 ```
+
+// // 进制转换
+// // 将10进制转换成n进制，可以使用toString(n)
+// const toDecimal = (num, n = 10) => num.toString(n)
+// // 假设数字10要转换成2进制
+// console.log(toDecimal(10, 2));// '1010'
+
+// // 10的2进制为1010
+// const toDecimalism = (num, n = 10) => parseInt(num, n)
+// console.log(toDecimalism(1010, 2));
+
+// 去除多余空格
+// trim只能去除左右空格
+// const setTrimOut = str => str.replace(/\s\s+/g, ' ')
+// const str = setTrimOut('hello,   jack') //
+// console.log(str,'hello,   jack'.trim());
+
+// 重新加载当前页面
+// const reload = () => location.reload();
+// reload()
+
+// 滚动到页面顶部
+// 如果你需要将页面翻到最顶部
+
+// const goToTop = () => window.scrollTo(0, 0);
+// 或者scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+// goToTop()
